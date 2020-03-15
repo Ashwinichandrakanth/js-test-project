@@ -1,0 +1,63 @@
+table {
+  border: 5px solid #478cc0;
+  width: 50%;
+  max-width: 450px;
+  margin: auto;
+}
+table th {
+  border-bottom: 1px solid #c3c3c3;
+  padding: 3px 12px;
+  width: 50%;
+}
+table td {
+  padding: 8px 12px;
+  width: 50%;
+  height: 61px;
+  border-bottom: 1px solid #eeeeee;
+}
+.account-header {
+  background-color: #f7f7f7;
+  text-align: left;
+}
+.changes-header {
+  background-color: #efefef;
+  text-align: right;
+}
+.account-header, .changes-header {
+  vertical-align: bottom;
+  font-weight: 400;
+  font-size: 18px;
+}
+.icon {
+  color: #2196f3;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 16px;
+}
+.account-col {
+  text-align: left;
+  color: #478cc0;
+}
+.changes-col {
+  text-align: right;
+}
+.account-col, .changes-col {
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: 600;
+}
+.positive-percent, .negetive-percent {
+  font-size: 16px;
+}
+.positive-percent {
+  color: #73ac75;
+}
+.negetive-percent {
+  color: #c3484a;
+}
+.load-more {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #478cc0;
+}
